@@ -1,0 +1,19 @@
+a.gh-collapse-begin{
+  position: absolute;
+  left: 0px;
+  color: #969896;
+}
+a.gh-collapse-begin:hover{
+  color: #444;
+  text-decoration: none;
+}
+.gh-collapsed{
+  background-color: #EDEDED;
+}
+
+tr a.gh-collapse-begin:before{
+  content: '▼';
+}
+tr.gh-collapsed  a.gh-collapse-begin:before{
+  content: '▶';
+}
