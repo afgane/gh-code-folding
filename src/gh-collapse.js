@@ -1,6 +1,6 @@
 var add_collapse = function(){
   var previous_whitespace = 0,
-  space_count = 2,
+  space_count = 4,
   nested_openings = [];
 
   $('td[id^="LC"').each(function(line_no, line){
